@@ -6,8 +6,10 @@ h3,
 h4,
 h4,
 h6 {
-  font-family: 'Tobias';
   font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-header {
@@ -17,10 +19,16 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 body{
   margin: 0;
+  font-family: 'Tobias';
+}
+
+input {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
 }
